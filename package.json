@@ -1,7 +1,7 @@
 {
   "name": "capacitor-zebra-pdfprint",
-  "version": "0.0.1",
-  "description": "provides a plugin to print with Zebra Printer portable printers",
+  "version": "0.0.2",
+  "description": "Provides a plugin to print PDF Files with Zebra Printer portable printers.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -37,7 +37,7 @@
     "eslint": "eslint . --ext ts",
     "prettier": "prettier \"**/*.{css,html,ts,js,java}\"",
     "swiftlint": "node-swiftlint",
-    "docgen": "docgen --api ExamplePlugin --output-readme README.md --output-json dist/docs.json",
+    "docgen": "docgen --api ZebraPdfPrintPlugin --output-readme README.md --output-json dist/docs.json",
     "build": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.js",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",

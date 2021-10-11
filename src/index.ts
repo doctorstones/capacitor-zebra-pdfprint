@@ -1,10 +1,10 @@
 import { registerPlugin } from '@capacitor/core';
 
-import type { ExamplePlugin } from './definitions';
+import type { ZebraPdfPrintPlugin } from './definitions';
 
-const Example = registerPlugin<ExamplePlugin>('Example', {
-  web: () => import('./web').then(m => new m.ExampleWeb()),
+const ZebraPdfPrint = registerPlugin<ZebraPdfPrintPlugin>('ZebraPdfPrint', {
+  web: () => import('./web').then(m => new m.ZebraPdfPrintWeb()),
 });
 
 export * from './definitions';
-export { Example };
+export { ZebraPdfPrint };
