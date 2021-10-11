@@ -1,7 +1,7 @@
 {
   "name": "capacitor-zebra-pdfprint",
-  "version": "0.0.2",
-  "description": "Provides a plugin to print PDF Files with Zebra Printer portable printers.",
+  "version": "0.0.3",
+  "description": "Provides a plugin to print PDF Files with Zebra Printer portable printers. At this moment: only for Android",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -23,7 +23,8 @@
     "url": "https://github.com/doctorstones/capacitor-zebra-print/issues"
   },
   "keywords": [
-    "capacitor",
+    "capacitor", "ionic",
+    "android",
     "plugin",
     "native"
   ],

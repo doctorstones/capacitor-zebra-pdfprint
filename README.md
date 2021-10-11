@@ -86,7 +86,8 @@ Stampa in formatp PDF
 printerStatus(options: { MACAddress: string; }) => any
 ```
 
-Stato Printer
+Returns Printer Status with these properties (read-only):
+(see <a href="#printerstatus">PrinterStatus</a> interface)
 
 | Param         | Type                                 |
 | ------------- | ------------------------------------ |

@@ -30,7 +30,11 @@ export interface ZebraPdfPrintPlugin {
   printZPL(options: { cpcl: string }): Promise<any>;
   /** Stampa in formatp PDF */
   printPDF(options: { uri: string }): Promise<any>;
-  /** Stato Printer */
+  /**
+   * Returns Printer Status with these properties (read-only):
+   * (see PrinterStatus interface)
+   * @param options 
+   */
   printerStatus(options: { MACAddress: string }): Promise<PrinterStatus>;
 
   searchDevices(options: { printers: string }): Promise<{ printers: string }>;
